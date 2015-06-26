@@ -13,3 +13,5 @@ RewriteRule    ^([A-Za-z0-9-]+)/?$    index.php?q=$1
 
 # END Rewrite
 
+ErrorDocument 404 /404
+

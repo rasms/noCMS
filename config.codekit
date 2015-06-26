@@ -1802,6 +1802,15 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
+	"\/content\/404.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/content\/404.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/content\/about.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1865,11 +1874,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/dist\/inc\/script.php": {
+	"\/dist\/inc\/scripts.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/dist\/inc\/script.php",
+		"inputAbbreviatedPath": "\/dist\/inc\/scripts.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

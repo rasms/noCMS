@@ -9,9 +9,10 @@ RewriteBase /
 #RewriteCond %{REQUEST_FILENAME} !-d
 #RewriteRule . /index.php [L]
 RewriteRule    ^([A-Za-z0-9-]+)/?$    index.php?q=$1
+RewriteRule    ^([^/]*)/([^/]*)$ /index.php?f=$1&q=$2 [L]
+
 </IfModule>
 
 # END Rewrite
 
 ErrorDocument 404 /404
-

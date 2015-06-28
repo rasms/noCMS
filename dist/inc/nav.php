@@ -12,13 +12,13 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li <?php if ($q == '') { ?>class="active"<?php } ?> ><a href="/">Home</a></li>
+            <li <?php if ($q == 'home') { ?>class="active"<?php } ?> ><a href="/">Home</a></li>
             <li <?php if ($q == 'about') { ?>class="active"<?php } ?> ><a href="/about">About</a></li>
             <li <?php if ($q == 'contact') { ?>class="active"<?php } ?> ><a href="/contact">Contact</a></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Folder <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="#">Action</a></li>
+                <li <?php if (($f == 'folder')&&($q == 'page')) { ?>class="active"<?php } ?> ><a href="/folder/page">Page</a></li>
                 <li><a href="#">Another action</a></li>
                 <li><a href="#">Something else here</a></li>
                 <li class="divider"></li>

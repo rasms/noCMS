@@ -9,9 +9,13 @@ if(!empty($_GET['f'])){
 if(!empty($_GET['q'])){
 	$q = $_GET['q'];
 }
+if(empty($f) && empty($q)){
+	$q = 'home';
+}
 
 //include header and nav
 $root = $_SERVER['DOCUMENT_ROOT'];
+include_once($root.'/inc/metas.php');
 include_once($root.'/inc/head.php');
 include_once($root.'/inc/nav.php');
 

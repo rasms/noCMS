@@ -1,0 +1,38 @@
+@base-margin: 5px;
+
+.m-t-5 { margin-top: @base-margin; }
+.m-t-10 { margin-top: (@base-margin * 2); }
+.m-t-15 { margin-top: (@base-margin * 3); }
+.m-t-20 { margin-top: (@base-margin * 4); }
+.m-t-25 { margin-top: (@base-margin * 5); }
+.m-t-50 { margin-top: (@base-margin * 10); }
+.m-b-5 { margin-bottom: @base-margin; }
+.m-b-10 { margin-bottom: (@base-margin * 2); }
+.m-b-15 { margin-bottom: (@base-margin * 3); }
+.m-b-20 { margin-bottom: (@base-margin * 4); }
+.m-b-25 { margin-bottom: (@base-margin * 5); }
+.m-b-50 { margin-bottom: (@base-margin * 10); }
+.m-5 { margin: @base-margin; }
+.m-10 { margin: (@base-margin * 2); }
+.m-15 { margin: (@base-margin * 3); }
+.m-20 { margin: (@base-margin * 4); }
+.m-25 { margin: (@base-margin * 5); }
+.m-50 { margin: (@base-margin * 10); }
+
+.maps-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.maps-container iframe,
+.maps-container object,
+.maps-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
